@@ -1,0 +1,81 @@
+.banner {
+  padding: 20px;
+  background-color: #000000;
+  color: white;
+}
+
+.banner-text {
+  padding: 12px 23px;
+  margin: 0;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  
+}
+
+#join-form {
+  margin-top: 10px;
+}
+
+.join-info-text {
+  margin-bottom: 2px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.player {
+  width: 480px;
+  height: 320px;
+}
+
+.player-name {
+  margin: 8px 0;
+}
+
+#success-alert,
+#success-alert-with-token {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .player {
+    width: 320px;
+    height: 240px;
+  }
+}
+
+#join,
+#leave,
+#transcribe,
+#stop-transcribe,
+#note,
+#stop-note {
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+}
+
+#save-note {
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+}
+
+#join:hover,
+#leave:hover,
+#transcribe:hover,
+#stop-transcribe:hover,
+#note:hover,
+#stop-note:hover {
+  background-color: rgba(255, 0, 157, 0.911);
+}
+
+.transcribed-text {
+  background: rgba(255, 0, 149, 0.897);
+  padding: 30px;
+  color: white;
+  border-radius: 15px;
+}
